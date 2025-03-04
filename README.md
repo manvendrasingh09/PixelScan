@@ -190,3 +190,5 @@ A. Mathur, K. Bhargava, M. Singh, M. Tejpal, and K. Natarajan, "Countering Deepf
 }
 ```
 ---
+
+![Contributors](https://img.shields.io/github/contributors/manvendrasingh09/PixelScan)
