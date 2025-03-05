@@ -17,7 +17,7 @@ The project, named **PixelScan** is a sophisticated model designed to detect and
 - **Kshitiz Bhargava**
     [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava)
 - **Manvendra Singh**
-    [LinkedIn](https://www.linkedin.com/in/kshitiz-b/)
+    [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
 - **Moulik Tejpal**
     [LinkedIn](https://in.linkedin.com/in/mouliktejpal)
 - **Krishnaraj Natarajan**
