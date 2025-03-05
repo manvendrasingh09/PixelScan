@@ -122,22 +122,27 @@ The ensemble model combines:
 
 1. **Confusion Matrix**  
    The confusion matrix showcases the high number of true positives and true negatives, reflecting the model's reliability in DeepFake detection.
+   
    <img src="https://github.com/manvendrasingh09/PixelScan/blob/main/Resources/Confusion%20Matrix.png" width="500"/>
 
 3. **Training Accuracy**  
    The ACNN model's training accuracy started at 50% and steadily improved, reaching 98% by the final epoch.
+   
    <img src="https://github.com/manvendrasingh09/PixelScan/blob/main/Resources/ACNN%20Training%20Accuracy.png" width="500"/>
 
 5. **Training Loss**  
    The ACNN model's training loss started at 1.6 and decreased to 0.07, showing effective learning during training.
+   
    <img src="https://github.com/manvendrasingh09/PixelScan/blob/main/Resources/ACNN%20Training%20Loss.png" width="500"/>
 
 7. **Precision-Recall Curve**  
    The precision-recall curve with an area of 1.00 demonstrates the ensemble model's capability to maintain high precision and recall across all thresholds.
+   
    <img src="https://github.com/manvendrasingh09/PixelScan/blob/main/Resources/Precision-Recall%20Curve.png" width="500"/>
 
 9. **ROC Curve**  
    The ROC curve with an area of 1.00 highlights the strong performance of the ensemble model in distinguishing between real and DeepFake images.
+   
    <img src="https://github.com/manvendrasingh09/PixelScan/blob/main/Resources/ROC%20Curve.png" width="500"/>
 
 ---
