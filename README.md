@@ -17,7 +17,7 @@ The project, named **PixelScan** is a sophisticated model designed to detect and
 - **Kshitiz Bhargava**
     [LinkedIn](https://in.linkedin.com/in/kshitiz-bhargava)
 - **Manvendra Singh**
-    [LinkedIn](https://www.linkedin.com/in/manvendrasingh09/)
+    [LinkedIn](https://www.linkedin.com/in/kshitiz-b/)
 - **Moulik Tejpal**
     [LinkedIn](https://in.linkedin.com/in/mouliktejpal)
 - **Krishnaraj Natarajan**
@@ -147,6 +147,44 @@ The ensemble model combines:
 1. Visit [PixelScan](https://pixelscan.site) to download the application.
 2. Upload your image to the app.
 3. Get a classification result indicating whether the image is real or fake.
+
+---
+## **Run Locally with [Docker](https://hub.docker.com/r/kshitizb/pixelscan)**
+
+### **1. Pull the Docker Image**
+To download the latest version of `pixelscan` from Docker Hub, run:
+
+```bash
+docker pull kshitizb/pixelscan:latest
+```
+
+### **2. Run the Container**
+Start the container and expose it on port **8000**:
+
+```bash
+docker run -d -p 8000:8000 --name pixelscan --restart unless-stopped kshitizb/pixelscan:latest
+```
+
+### **3. Access the API**
+Once the container is running, open a browser and go to:
+
+```
+http://<your-server-ip>:8000
+```
+
+Or test via **FastAPI interactive docs**:
+
+```
+http://<your-server-ip>:8000/docs
+```
+
+---
+
+## **Endpoints**
+| Method  | Endpoint       | Description |
+|---------|---------------|-------------|
+| **GET** | `/`           | Homepage - Image Upload Form |
+| **POST** | `/upload/`   | Upload and classify an image |
 
 ---
 
